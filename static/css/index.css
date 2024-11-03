@@ -1,0 +1,199 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            box-sizing: border-box;
+            
+        }
+
+        .flex-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/here.png)  no-repeat ;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .change>li>a{
+            /* color: white; */
+        }
+
+        .text-container {
+            height: 29rem;
+            width: 100%;
+            /* max-width: 1200px; */
+            /* border:  1px solid white; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .button-div {
+            display: flex;
+            justify-content: center;
+            margin: 80px;
+            gap: 20rem;
+            flex-wrap: wrap;
+            /* border: 1px solid white; */
+        }
+
+        .button-join,
+        .button-watch,
+        .button-give {
+            background-color: rgb(15, 192, 59);
+            border-radius: 7px;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .first-text{
+            font-size: 70px;
+            color: white;
+            /* border: 1px solid wheat; */
+        }
+        .button-give:hover,
+        .button-watch:hover,
+        .button-join:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .button-watch {
+            background-color: aqua;
+        }
+
+        .button-give {
+            background-color: rgb(173, 21, 79);
+        }
+
+        .hexgon {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            gap: 20px;
+        }
+
+        .pastorscard {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .rc {
+            font-size: 2.5rem;
+            color: white;
+            text-align: center;
+        }
+
+        @media (max-width: 834px) {
+            .button-div {
+                gap: 1rem;
+                margin: 20px 0;
+            }
+            .flex-div {
+                background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hereph.png)  no-repeat ;
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+            }
+
+            .hexgon {
+                flex-direction: column;
+                width: 100%;
+                margin: 0;
+            }
+
+            .text-container {
+                width: 90%;
+            }
+
+            .rc {
+                font-size: 2rem;
+            }
+        }
+        .rc {
+          font-size: 1.5rem;
+          text-align: center;
+      }
+
+
+        @media (max-width: 575px) {
+            .flex-div {
+                background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hereph.png)  no-repeat ;
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+            }
+            .button-div {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .rc {
+                font-size: 1.5rem;
+                text-align: center;
+                /* margin-left: 40px; */
+            }
+            .first-text{
+                margin-left: 60px;
+                /* border: 3px solid black; */
+                font-size: 60px;
+            }
+            .imageContainer{
+                /* margin-left: 50px; */
+                /* border: 10px solid black; */
+            }
+
+            .hexgon {
+                width: 100%;
+            }
+
+            .pastorscard {
+                flex-direction: column;
+            }
+            body{
+                box-sizing: border-box;
+                width: 110%;
+                /* overflow: hidden; */
+            }
+            .navi{
+                width: 100%;
+            }
+        }
+        
+        .navbar-scroll .nav-link,
+        .navbar-scroll .navbar-toggler-icon,
+        .navbar-scroll .navbar-brand,
+        .navbar-scrolled .nav-link,
+        .navbar-scrolled .navbar-toggler-icon,
+        .navbar-scrolled .navbar-brand {
+            color: #fff;
+        }
+
+        .navbar-scroll,
+        .navbar-scrolled {
+            background-color: #cbbcb1;
+        }
+
+        .mask-custom {
+            backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, .15);
+        }
+
+        .navbar-brand {
+            font-size: 1.75rem;
+            letter-spacing: 3px;
+        }
